@@ -1,0 +1,19 @@
+{
+  "name": "stranger-chat",
+  "version": "0.2.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "dependencies": {
+    "express": "3.2.x",
+    "jade": "*",
+    "less-middleware": "*",
+    "socket.io": "0.9.x",
+    "validator": "1.2.x"
+  },
+  "subdomain": "unitycat-stranger-chat",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
